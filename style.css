@@ -1,0 +1,338 @@
+body{
+    background: #e8e6e6 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 0px;
+    margin: 0px;
+}
+.tasklist{
+    text-align: initial;
+    height: 100px;
+    font-size: 25px;
+    background-color: white;
+}
+.head1{
+    padding-left: 50px;
+    padding-top: 10px;
+    margin: 0px;
+    color: black;
+}
+#hlist{
+    color: blue;
+}
+.newtask{
+    position: relative;
+    top: 31px;
+    left: 1013px;
+    width: 264px;
+    height: 94px;
+    font: normal normal normal 22px/26px Inter;
+    font-size: 25px;
+    text-align: center;
+}
+.plussign{
+    height: 40px;
+    width: 50px;
+}
+
+
+.antask{
+    color: black;
+    position: relative;
+    top: -16px;
+}
+.antask2{
+    color: black;
+}
+.boxes{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px 80px;
+      justify-content: start;
+}
+.boxes > div{
+    width: 345px;
+    height: 289px;
+    background: white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 20px;
+}
+
+.linethrough{
+    font-size: 20px;
+    color: #C2C2C2;
+    opacity: 1;
+    text-decoration-line: line-through;
+    padding: 20px;
+}
+.nonelinethrogh{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.boxes >div> a{
+    padding-left: 20px;
+    font-size: 30px;
+    border:#00A5EC;
+}
+
+a{
+    text-decoration: none;
+}
+.aboxes{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: blue;
+    word-spacing: 5px;
+}
+.miniboxes:hover{
+box-shadow: 5px 5px 30px rgb(151, 148, 148);
+}
+.check{
+    width: 20px;
+    height: 20px;
+}
+.p2box1{
+    position: relative;
+    bottom: 675px;
+    left: 433px;
+    width: 500px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.p2box1 > h3{
+    text-align: left;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 5px;
+}
+.learnc{
+    position: relative;
+    top: 32px;
+    left: 23px;
+    width: 460px;
+    height: 40px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    color: #858585;
+    font-size: 20px;
+}
+.p2addtaskbox{
+    position: relative;
+    top: 53px;
+    left: 213px;
+    width: 249px;
+    height: 38px;
+    background: #00A5EC 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.p2addtaskbox > a{
+    color: white;
+}
+.closeicon1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 21px;
+    left: 460px;
+}
+.closeicon2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 21px;
+    left: 460px;
+}
+#p3backbutton{
+    position: absolute;
+    right: 770px;
+}
+#p3backtext{
+    position: absolute;
+    right: 710px;
+    top: 12px;
+}
+#p3plusimg{
+    position: absolute;
+    right: 540px;
+}
+#p3addtasktext{
+    position: absolute;
+    right: 380px;
+    top: 11px;
+    width: 162px;
+}
+#p3parisbox{
+    width: 444px;
+    height: 296px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.p4box1{
+    position: relative;
+        bottom: 312px;
+        left: 441px; 
+    width: 500px;
+    height: 250px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #67676729;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.p4box1 > h3{
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 5px;
+}
+.visit{
+    position: relative;
+    top: 32px;
+    left: 23px;
+    width: 460px;
+    height: 40px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    color: #858585;
+    font-size: 20px;
+}
+.p4additem{
+    position: relative;
+    top: 61px;
+    left: 285px;
+    width: 200px;
+    height: 39px;
+    background: #00A5EC 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.blur{
+    filter: blur(2px) grayscale(38%);
+    opacity: 0.7;
+    background: rgb(151 148 148);
+}
+@media only screen and (max-width: 1050px){
+    body{
+        width:1000px;
+    }
+    .tasklist{
+        height: auto;
+        width: 1100px;
+        font-size: 51px;
+    }
+    .newtask{
+        position: relative;
+        left: 39%;
+        top: 55px;
+        width: 261px;
+        height: 74px;
+    }
+    .adtask{
+        display: none;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+        margin-right: 20px;
+  }
+  .boxes > div{
+    width: 650px;
+    height: 650px;
+}
+    .check{
+        width: 40px;
+        height: 40px;
+    
+    }
+    .checked{
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+    .plussign {
+        position: relative;
+    }
+
+.aboxes{
+    font-size: 60px;
+}
+
+.linethrough{
+    font-size: 50px;
+}
+.nonelinethrogh{
+    font-size: 50px;
+}
+.p2box1{
+    position: absolute;
+    top: 146%;
+    left: 35%;
+    width: 700px;
+    height: 481px;
+    margin: auto;
+}
+.p2box1 > h3 {
+    font-size: 45px;
+   
+}
+.learnc{
+    position: relative;
+    top: 70px;
+    width: 620px;
+    height: 82px;
+    font-size: 31px;
+}
+.p2addtaskbox{
+    position: relative;
+    top: 148px;
+    left: 220px;
+    width: 259px;
+    height: 50px;
+    font-size: 32px;
+}
+
+.closeicon1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 29px;
+    left: 600px;
+}
+.plussign {
+    position: relative;
+    left: -138%;
+}
+#p3parisbox{
+    width: 82%;
+    height: 500px;
+    margin-top: 12%;
+}
+}
